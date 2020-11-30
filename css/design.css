@@ -17,39 +17,6 @@
   
 }
 
-.navigationsleiste {
-  background-color: transparent;
-  margin: 20px;
-  width: auto;
-}
-
-
-.navigationsleiste ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align:center;
-  display:inline-block;
-
-}
-
-.navigationsleiste li {
-  display:inline;
-}
-
-.navigationsleiste a {
-  color: #f2f2f2;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 24px;
-}
-
-.navigationsleiste a:hover{
-  background-color: transparent;
-  color: black;
-}
-
-
 body {
   margin: 0;
   padding: 0;
@@ -58,16 +25,16 @@ body {
 
 .logo {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: middle; /* Elemente wird vertikal zentriert */
   width: 75px;
   padding: 0px 25px;
 }
 
 header{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-image: linear-gradient(to right,  rgba(117, 76, 192, 0.664) ,  rgba(0, 178, 248, 0.267));
+  justify-content: space-between; /* Ordnet die Elemente mit einem Zwischenraum an */
+  align-items: center; /* Ordnet die Elemente zentriert entlang der x-Achse an (horizontal) */
+  background-image: linear-gradient(to right,  rgba(117, 76, 192, 0.664) ,  rgba(0, 178, 248, 0.267)); /* Linearer Verlauf von links nach rechts */
 }
 
 .navigation_liste{
@@ -81,7 +48,6 @@ header{
 
 .navigation_liste li a {
   color: white;
-  transition: all 0.3 ease 0s;
   font-size: 20px;
   text-decoration: none;
 }
@@ -157,7 +123,7 @@ header{
   display:flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; /* Richtet die ELemente entlang der Hauptachse aus (standard row, dann horizontal). In diesem Fall zenriert. Es gibt auch andere werde wie start -> linksbündig  */
   flex-basis: 33.33em;
 
 }
