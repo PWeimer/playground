@@ -1,2 +1,0 @@
-# playground
-Spielplatz für WebDev
